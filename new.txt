@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body style="background-color:black">
+<title>furniture.com</title>
+<style>
+h1{font-family:verdana;text-align:center;color:white;}
+h2{font-family:verdana;text-align:center;} 
+h3{font-family:verdana;background-color:black;color:white;display:inline;word-spacing:10px;}
+a:link {
+    text-decoration: none;    background-color: black;
+}
+
+a:visited {
+    text-decoration: none;background-color: black;
+}
+
+a:hover {
+    text-decoration: underline;background-color: black;
+}
+
+a:active {
+    text-decoration: underline;background-color: black;
+}
+
+</style>
+</head>
+<body>
+<h1>Furniture</h1>
+<h3><a href="home.html">Home</a>
+<a href="www.google.com">Login</a>
+<a href="contactus.html">Contact us</a>
+<a href="aboutuspage.html">About Us</a></ins></h3><br>
+<br>
+<img src="p1.jpeg" width="200" height="100"><img src="p2.jpeg" width="200" height="100">
+<h2>Please Sign Up</h2>
+ 
+<form>
+<fieldset>
+<legend style="color:white">Personal Info</legend>
+<h3>Name</h3>
+<input type="text" name="1name"><br>
+<br>
+<h3>Mobile Number</h3>
+<input type="text" name="1name"><br>
+<br>
+<h3> What will you  like to shop?</h3>
+<input type="checkbox" name="item" value="Chair">Chair<input type="checkbox" name="item" value="Dining table">Dining Table<input type="checkbox" name="item" value="Table">Table<input type="checkbox" name="item" value="sofa">Sofa
+<br><br><input type="submit" name="Submit">
+<br>
+<br>
+<h3>Please provide a unique username and password</h3>
+<br>Userame<br>
+<input type="username" name="user">
+<br>Password<br>
+<input type="password" name="psw">
+<input type="submit" name="submit" value="Sign Up">
+</fieldset>
+</form>
